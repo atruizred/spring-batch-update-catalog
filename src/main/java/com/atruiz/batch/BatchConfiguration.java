@@ -16,7 +16,6 @@ import org.springframework.batch.item.file.builder.FlatFileItemReaderBuilder;
 import org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 
 import com.atruiz.batch.bo.AnimeCsv;
@@ -24,7 +23,6 @@ import com.atruiz.batch.bo.MalAnime;
 import com.atruiz.batch.listener.JobCompletionNotificationListener;
 import com.atruiz.batch.processor.AnimeItemProcessor;
 
-//@Configuration
 @EnableBatchProcessing
 public class BatchConfiguration {
 	
